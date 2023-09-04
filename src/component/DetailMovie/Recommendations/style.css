@@ -1,0 +1,98 @@
+.trending-container2{
+    color: white;
+    padding: 20px 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.trending-container2 h1{
+    user-select: none;
+    color: black;
+}
+
+/* recommmendations */
+
+.movieslider2{
+    display: grid;
+    gap: 10px;
+    user-select: none;
+    transition: all 0.5s linear;
+    overflow-y: hidden;
+    overflow-x: auto;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+.movieitem2{
+    transform: scale(1);
+    max-width: 400px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s linear;
+    user-select: none;
+    overflow: hidden;
+    border-radius: 6px;
+    transform: center left;
+    position: relative;
+}
+.movieitem2 :hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+.movieitem2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.moviename2{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 4px;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.moviename2:hover{
+    transform: scale(1);
+}
+.btnleft2{
+    position: absolute;
+    top: 45%;
+    left: 5px;
+    z-index: 20;
+    transform-origin: center;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70px;
+    width: 40px;
+    font-size: 25px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnleft2:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.btnright2{
+    position: absolute;
+    top: 45%;
+    right: 5px;
+    z-index: 20;
+    transform-origin: center;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70px;
+    width: 40px;
+    font-size: 25px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnright2:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+

@@ -1,0 +1,42 @@
+.footer-container{
+    background-color: #031d33;
+    margin-top: 50px;
+    padding: 25px 0px 50px 0px;
+}
+.footeritems{
+    padding: 20px 20px;
+    color: white;
+    font-weight: 500;
+}
+.footeritems h3{
+    font-size: 18px;
+    cursor: pointer;
+}
+.footeritems p{
+    font-size: 15px;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+.itemlogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.itemlogo p{
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 10px;
+    background-color: white;
+    color: #01B4E4;
+    cursor: pointer;
+}
+.itemlogo img{
+    width: 40%;
+    height: 40%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

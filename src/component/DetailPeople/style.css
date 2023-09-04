@@ -1,0 +1,158 @@
+.col-content{
+    text-align: justify;
+}
+.col-content h1{
+    font-size: 33px;
+    margin: 0;
+}
+.col-content h3{
+    font-size: 20px;
+    font-weight: 550;  
+}
+.personInfo{
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 0px; 
+}
+.col-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col-image img{
+    border: none;
+    border-radius: 10px;
+    height: 450px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.spc-popular-pp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+/* person movie */
+.trending-container{
+    color: white;
+    padding: 20px 20px 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.trending-container h1{
+    user-select: none;
+    color: black;
+}
+.movieslider4{
+    display: grid;
+    gap: 10px;
+    user-select: none;
+    transition: all 0.5s linear;
+    overflow-x: scroll!important;
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+    border-radius: 15px;
+}
+ 
+body::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+    border-radius: 15px;
+}
+ 
+body::-webkit-scrollbar-thumb
+{
+	background-color: #0ae;
+	background: linear-gradient(to bottom, #00ff99 20%, #0099ff 100%)!important;	
+    border-radius: 15px;
+}
+.movieitem{
+    transform: scale(1);
+    max-width: 400px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s linear;
+    user-select: none;
+    overflow: hidden;
+    border-radius: 6px;
+    transform: center left;
+    position: relative;
+}
+.movieitem :hover{
+    transform: scale(1.1);
+    z-index: 10;
+}
+.movieitem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.moviename{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 4px;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.btnleft3{
+    position: absolute;
+    top: 32%;
+    left: 5px;
+    z-index: 20;
+    transform-origin: center;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70px;
+    width: 40px;
+    font-size: 25px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnleft3:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.icon{
+    color: white;
+    opacity: 0.7;
+    transition: all 0.3s linear;
+}
+.icon:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+.btnright3{
+    position: absolute;
+    top: 32%;
+    right: 5px;
+    z-index: 20;
+    transform-origin: center;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 70px;
+    width: 40px;
+    font-size: 25px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnright3:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}

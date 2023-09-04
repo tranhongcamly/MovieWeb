@@ -1,0 +1,122 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .navleft{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+    color: white;
+    font-weight: 600;
+}
+.navleft p{
+    cursor: pointer;
+    user-select: none;
+    color: white;
+}
+
+.navright{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    gap: 20px;
+    padding-bottom: 5px;
+}
+.container .btn-search{
+    font-size: 25px;
+    color: rgb(114, 145, 255);
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding-top: 3px;
+}
+.container .btn-search:hover{
+    color: white;
+}
+
+
+.logo{
+    padding-right: 25px;
+    font-size: 30px;
+    background: linear-gradient(to right, #00ff99 20%, #0099ff 100%);
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+.logo:hover{
+    background: linear-gradient(to right, #00ff99 20%, #0099ff 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+/* .div-lang{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.div-lang .btn-vi, .btn-en{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 3px 5px;
+    width: 28px;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.div-lang .btn-vi:hover, .btn-en:hover{
+    background-color: white;
+    color: black;
+} */
+
+.lang{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 8px 4px;
+    border-radius: 8px;
+    height: 45px;
+}
+
+.la-vn, .la-usa {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    height: 30px;
+}
+.la-vn img, .la-usa img{
+    display: flex;
+    flex-direction: col;
+    justify-content: center;
+    align-items: center;
+}
+
+.la-vn{
+    padding: 4px 8px 4px 8px;
+    border-radius: 8px;
+    color: white;
+    background-color: transparent;
+}
+.la-usa{
+    padding: 4px 8px 4px 8px;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+}
